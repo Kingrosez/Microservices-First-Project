@@ -1,0 +1,393 @@
+2026-02-11 17:29:17 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 18144 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 17:29:18 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 17:29:24 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 17:29:26 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 17:29:26 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 17:29:26 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 5 ms
+2026-02-11 17:29:26 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 10.809 seconds (process running for 16.507)
+2026-02-11 17:29:27 WARN  [main] c.M.O.e.GlobalExceptionHandler - Unhandled Exception: No static resource .
+2026-02-11 17:31:21 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 13580 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 17:31:21 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 17:31:27 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 17:31:28 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 17:31:28 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 17:31:28 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2026-02-11 17:31:29 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 9.793 seconds (process running for 15.147)
+2026-02-11 17:33:00 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 18980 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 17:33:00 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 17:33:07 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 17:33:11 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 17:33:11 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 17:33:11 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 5 ms
+2026-02-11 17:33:11 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 14.293 seconds (process running for 23.013)
+2026-02-11 17:33:13 INFO  [main] c.M.O.controller.OrderController - POST /order request received 
+2026-02-11 17:33:13 WARN  [main] c.M.O.e.GlobalExceptionHandler - Unhandled Exception: Cannot invoke "com.MFP.OrderService.dto.OrderResponse.getId()" because "createdOrder" is null
+2026-02-11 17:35:40 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 21316 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 17:35:40 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 17:35:46 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 17:35:48 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 17:35:48 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 17:35:48 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2026-02-11 17:35:48 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 9.992 seconds (process running for 15.036)
+2026-02-11 17:35:49 INFO  [main] c.M.O.controller.OrderController - POST /order request received 
+2026-02-11 17:35:49 INFO  [main] c.M.O.controller.OrderController - POST / Create order successfully with orderId=1 
+2026-02-11 17:47:50 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 20696 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 17:47:50 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 17:47:56 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 17:47:58 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 17:47:58 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 17:47:58 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 13 ms
+2026-02-11 17:47:58 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 10.145 seconds (process running for 15.409)
+2026-02-11 17:48:00 INFO  [main] c.M.O.controller.OrderController - POST /order request received 
+2026-02-11 17:48:00 WARN  [main] c.M.O.e.GlobalExceptionHandler - Unhandled Exception: Cannot invoke "com.MFP.OrderService.dto.OrderResponse.getId()" because "createdOrder" is null
+2026-02-11 17:49:17 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 14128 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 17:49:17 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 17:49:23 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 17:49:25 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 17:49:25 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 17:49:25 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 5 ms
+2026-02-11 17:49:25 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 10.29 seconds (process running for 15.593)
+2026-02-11 17:49:26 WARN  [main] c.M.O.e.GlobalExceptionHandler - Validation Error: [userId: User Id must not be null]
+2026-02-11 17:55:26 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 11856 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 17:55:26 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 17:55:32 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 17:55:33 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 17:55:33 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 17:55:33 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2026-02-11 17:55:34 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 9.832 seconds (process running for 14.868)
+2026-02-11 17:55:35 WARN  [main] c.M.O.e.GlobalExceptionHandler - Validation Error: [userId: User id must not be null]
+2026-02-11 17:59:26 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 12652 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 17:59:26 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 17:59:31 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 17:59:32 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 17:59:32 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 17:59:32 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2026-02-11 17:59:32 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 7.727 seconds (process running for 11.247)
+2026-02-11 17:59:33 WARN  [main] c.M.O.e.GlobalExceptionHandler - Validation Error: [userId: User id must not be null]
+2026-02-11 18:00:14 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 11728 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 18:00:14 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 18:00:20 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 18:00:21 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 18:00:21 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 18:00:21 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2026-02-11 18:00:22 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 9.888 seconds (process running for 14.634)
+2026-02-11 18:00:23 WARN  [main] c.M.O.e.GlobalExceptionHandler - Validation Error: [userId: User id must not be null]
+2026-02-11 18:03:40 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 16316 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 18:03:40 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 18:03:44 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 18:03:46 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 18:03:46 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 18:03:46 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2026-02-11 18:03:46 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 7.341 seconds (process running for 10.941)
+2026-02-11 18:03:47 INFO  [main] c.M.O.controller.OrderController - PUT /order request Updated with id 1
+2026-02-11 18:03:47 WARN  [main] c.M.O.e.GlobalExceptionHandler - Order Not Found Exception: Order with id=1 not found
+2026-02-11 18:15:38 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 17092 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 18:15:38 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 18:15:43 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 18:15:44 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 18:15:44 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 18:15:44 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2026-02-11 18:15:44 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 7.692 seconds (process running for 11.214)
+2026-02-11 18:15:45 INFO  [main] c.M.O.controller.OrderController - PUT /order request Updated with id 1
+2026-02-11 18:15:45 WARN  [main] c.M.O.e.GlobalExceptionHandler - Order Not Found Exception: Order with id=1 not found
+2026-02-11 21:24:22 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 15604 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 21:24:22 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 21:24:28 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 21:24:30 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 21:24:30 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 21:24:30 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2026-02-11 21:24:30 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 10.147 seconds (process running for 15.319)
+2026-02-11 21:24:31 INFO  [main] c.M.O.controller.OrderController - DELETE /order request Delete with id 1
+2026-02-11 21:24:31 INFO  [main] c.M.O.controller.OrderController - DELETE /Delete order successfully with id=Deleted successfully 
+2026-02-11 21:28:57 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 9224 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 21:28:57 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 21:29:03 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 21:29:05 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 21:29:05 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 21:29:05 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2026-02-11 21:29:05 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 9.845 seconds (process running for 15.05)
+2026-02-11 21:29:06 INFO  [main] c.M.O.controller.OrderController - DELETE /order request Delete with id 1
+2026-02-11 21:29:06 INFO  [main] c.M.O.controller.OrderController - DELETE /Delete order successfully with id=Deleted successfully 
+2026-02-11 21:32:58 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 5188 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 21:32:58 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 21:33:05 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 21:33:07 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 21:33:07 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 21:33:07 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2026-02-11 21:33:07 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 11.182 seconds (process running for 16.359)
+2026-02-11 21:33:08 INFO  [main] c.M.O.controller.OrderController - GET /order request fetch by id=1
+2026-02-11 21:33:08 WARN  [main] c.M.O.e.GlobalExceptionHandler - Unhandled Exception: Cannot invoke "com.MFP.OrderService.dto.OrderResponse.getId()" because "orderResponse" is null
+2026-02-11 21:38:31 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 10648 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 21:38:31 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 21:38:37 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 21:38:39 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 21:38:39 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 21:38:39 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 5 ms
+2026-02-11 21:38:39 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 11.198 seconds (process running for 16.056)
+2026-02-11 21:38:40 INFO  [main] c.M.O.controller.OrderController - GET /order request fetch by id=1
+2026-02-11 21:38:40 INFO  [main] c.M.O.controller.OrderController - GET /Order successfully fetched with id=1 
+2026-02-11 21:39:55 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 19656 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 21:39:55 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 21:40:01 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 21:40:03 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 21:40:03 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 21:40:03 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 5 ms
+2026-02-11 21:40:03 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 11.025 seconds (process running for 16.202)
+2026-02-11 21:40:04 INFO  [main] c.M.O.controller.OrderController - GET /order request fetch by id=1
+2026-02-11 21:40:04 INFO  [main] c.M.O.controller.OrderController - GET /Order successfully fetched with id=1 
+2026-02-11 21:41:10 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 11944 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 21:41:10 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 21:41:16 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 21:41:18 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 21:41:18 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 21:41:18 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2026-02-11 21:41:18 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 10.181 seconds (process running for 15.304)
+2026-02-11 21:41:18 INFO  [main] c.M.O.controller.OrderController - GET /order request fetch by id=1
+2026-02-11 21:41:18 INFO  [main] c.M.O.controller.OrderController - GET /Order successfully fetched with id=1 
+2026-02-11 21:43:58 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 16328 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 21:43:58 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 21:44:04 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 21:44:06 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 21:44:06 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 21:44:06 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 7 ms
+2026-02-11 21:44:06 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 9.728 seconds (process running for 14.7)
+2026-02-11 21:44:07 INFO  [main] c.M.O.controller.OrderController - GET /order request fetch by id=1
+2026-02-11 21:44:07 INFO  [main] c.M.O.controller.OrderController - GET /Order successfully fetched with id=1 
+2026-02-11 21:48:57 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 11840 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 21:48:57 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 21:49:02 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 21:49:04 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 21:49:04 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 21:49:04 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 5 ms
+2026-02-11 21:49:04 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 9.675 seconds (process running for 14.695)
+2026-02-11 21:49:05 INFO  [main] c.M.O.controller.OrderController - GET /order request fetch by id=1
+2026-02-11 21:49:05 WARN  [main] c.M.O.e.GlobalExceptionHandler - Order Not Found Exception: Order with id=1 not found
+2026-02-11 22:08:41 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 21160 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 22:08:41 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 22:08:47 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 22:08:50 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 22:08:50 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 22:08:50 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 5 ms
+2026-02-11 22:08:50 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 10.984 seconds (process running for 16.166)
+2026-02-11 22:08:50 INFO  [main] c.M.O.controller.OrderController - GET /All Orders fetched
+2026-02-11 22:08:50 INFO  [main] c.M.O.controller.OrderController - GET /2 Orders successfully fetched
+2026-02-11 22:10:37 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 10616 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 22:10:37 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 22:10:46 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 22:10:52 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 22:10:52 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 22:10:52 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 158 ms
+2026-02-11 22:10:53 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 19.529 seconds (process running for 24.997)
+2026-02-11 22:10:55 INFO  [main] c.M.O.controller.OrderController - GET /All Orders fetched
+2026-02-11 22:10:55 INFO  [main] c.M.O.controller.OrderController - GET /2 Orders successfully fetched
+2026-02-11 22:11:44 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 20624 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 22:11:44 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 22:11:49 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 22:11:51 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 22:11:51 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 22:11:51 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2026-02-11 22:11:51 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 10.078 seconds (process running for 14.941)
+2026-02-11 22:11:52 INFO  [main] c.M.O.controller.OrderController - GET /All Orders fetched
+2026-02-11 22:11:52 INFO  [main] c.M.O.controller.OrderController - GET /2 Orders successfully fetched
+2026-02-11 22:19:04 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 15492 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 22:19:04 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 22:19:10 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 22:19:11 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 22:19:11 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 22:19:11 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2026-02-11 22:19:12 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 9.649 seconds (process running for 14.061)
+2026-02-11 22:19:13 INFO  [main] c.M.O.controller.OrderController - PUT /order request Updated with id 1
+2026-02-11 22:19:13 INFO  [main] c.M.O.controller.OrderController - PUT /Update order successfully with id=1 
+2026-02-11 22:20:25 INFO  [main] c.M.O.controller.OrderControllerTest - Starting OrderControllerTest using Java 23.0.2 with PID 17428 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 22:20:25 INFO  [main] c.M.O.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-02-11 22:20:31 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 22:20:33 INFO  [main] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-02-11 22:20:33 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-02-11 22:20:33 INFO  [main] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2026-02-11 22:20:33 INFO  [main] c.M.O.controller.OrderControllerTest - Started OrderControllerTest in 9.939 seconds (process running for 14.895)
+2026-02-11 22:20:34 INFO  [main] c.M.O.controller.OrderController - PUT /order request Updated with id 1
+2026-02-11 22:20:34 INFO  [main] c.M.O.controller.OrderController - PUT /Update order successfully with id=1 
+2026-02-11 23:06:22 INFO  [main] c.M.O.repository.OrderRepositoryTest - Starting OrderRepositoryTest using Java 23.0.2 with PID 18804 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 23:06:22 INFO  [main] c.M.O.repository.OrderRepositoryTest - The following 1 profile is active: "test"
+2026-02-11 23:06:24 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-11 23:06:25 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 206 ms. Found 1 JPA repository interface.
+2026-02-11 23:06:25 INFO  [main] o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2026-02-11 23:06:25 INFO  [main] o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:ec3ea48c-3ddf-4258-83ad-57a9114f1d67;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-02-11 23:06:26 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-11 23:06:26 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-11 23:06:26 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-11 23:06:28 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-11 23:06:28 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@e4ca109']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-11 23:06:32 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-11 23:06:32 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 23:06:32 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 23:06:35 INFO  [main] c.M.O.repository.OrderRepositoryTest - Started OrderRepositoryTest in 14.992 seconds (process running for 19.571)
+2026-02-11 23:06:38 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 23:07:29 INFO  [main] c.M.O.repository.OrderRepositoryTest - Starting OrderRepositoryTest using Java 23.0.2 with PID 16272 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 23:07:29 INFO  [main] c.M.O.repository.OrderRepositoryTest - The following 1 profile is active: "test"
+2026-02-11 23:07:30 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-11 23:07:31 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 336 ms. Found 1 JPA repository interface.
+2026-02-11 23:07:31 INFO  [main] o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2026-02-11 23:07:31 INFO  [main] o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:b775c160-9009-4f3a-b53c-4d557f42f9f8;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-02-11 23:07:32 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-11 23:07:32 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-11 23:07:32 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-11 23:07:33 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-11 23:07:34 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@6aad919c']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-11 23:07:36 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-11 23:07:36 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 23:07:36 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 23:07:37 INFO  [main] c.M.O.repository.OrderRepositoryTest - Started OrderRepositoryTest in 9.72 seconds (process running for 13.216)
+2026-02-11 23:07:39 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 23:12:17 INFO  [main] c.M.O.repository.OrderRepositoryTest - Starting OrderRepositoryTest using Java 23.0.2 with PID 16776 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 23:12:17 INFO  [main] c.M.O.repository.OrderRepositoryTest - The following 1 profile is active: "test"
+2026-02-11 23:12:19 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-11 23:12:20 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 278 ms. Found 1 JPA repository interface.
+2026-02-11 23:12:20 INFO  [main] o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2026-02-11 23:12:21 INFO  [main] o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:39fba20f-52cb-4cef-97c5-09a64918d064;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-02-11 23:12:21 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-11 23:12:22 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-11 23:12:22 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-11 23:12:23 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-11 23:12:24 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@340c5fb6']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-11 23:12:26 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-11 23:12:27 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 23:12:27 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 23:12:29 INFO  [main] c.M.O.repository.OrderRepositoryTest - Started OrderRepositoryTest in 13.573 seconds (process running for 17.563)
+2026-02-11 23:12:31 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 23:15:01 INFO  [main] c.M.O.repository.OrderRepositoryTest - Starting OrderRepositoryTest using Java 23.0.2 with PID 19284 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 23:15:01 INFO  [main] c.M.O.repository.OrderRepositoryTest - The following 1 profile is active: "test"
+2026-02-11 23:15:03 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-11 23:15:03 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 230 ms. Found 1 JPA repository interface.
+2026-02-11 23:15:03 INFO  [main] o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2026-02-11 23:15:04 INFO  [main] o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:f16c911d-7161-4b8f-86d0-3be2aaa473cf;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-02-11 23:15:04 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-11 23:15:05 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-11 23:15:05 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-11 23:15:06 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-11 23:15:06 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@11148dc2']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-11 23:15:09 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-11 23:15:09 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 23:15:09 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 23:15:10 INFO  [main] c.M.O.repository.OrderRepositoryTest - Started OrderRepositoryTest in 10.778 seconds (process running for 15.098)
+2026-02-11 23:15:13 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 23:19:09 INFO  [main] c.M.O.repository.OrderRepositoryTest - Starting OrderRepositoryTest using Java 23.0.2 with PID 19364 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 23:19:09 INFO  [main] c.M.O.repository.OrderRepositoryTest - The following 1 profile is active: "test"
+2026-02-11 23:19:11 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-11 23:19:11 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 205 ms. Found 1 JPA repository interface.
+2026-02-11 23:19:11 INFO  [main] o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2026-02-11 23:19:12 INFO  [main] o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:25de0b73-a4b7-43ca-b548-364382b4487b;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-02-11 23:19:12 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-11 23:19:13 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-11 23:19:13 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-11 23:19:14 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-11 23:19:14 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@4efb13f1']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-11 23:19:16 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-11 23:19:17 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 23:19:17 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 23:19:17 INFO  [main] c.M.O.repository.OrderRepositoryTest - Started OrderRepositoryTest in 9.806 seconds (process running for 13.357)
+2026-02-11 23:19:19 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 23:23:05 INFO  [main] c.M.O.repository.OrderRepositoryTest - Starting OrderRepositoryTest using Java 23.0.2 with PID 7500 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 23:23:05 INFO  [main] c.M.O.repository.OrderRepositoryTest - The following 1 profile is active: "test"
+2026-02-11 23:23:06 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-11 23:23:07 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 196 ms. Found 1 JPA repository interface.
+2026-02-11 23:23:07 INFO  [main] o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2026-02-11 23:23:07 INFO  [main] o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:bf1c3134-9121-407a-89d9-2a679686948f;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-02-11 23:23:08 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-11 23:23:08 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-11 23:23:08 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-11 23:23:09 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-11 23:23:10 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@64b73e0a']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-11 23:23:14 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-11 23:23:14 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 23:23:14 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 23:23:15 INFO  [main] c.M.O.repository.OrderRepositoryTest - Started OrderRepositoryTest in 12.408 seconds (process running for 16.48)
+2026-02-11 23:23:18 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 23:24:00 INFO  [main] c.M.O.repository.OrderRepositoryTest - Starting OrderRepositoryTest using Java 23.0.2 with PID 8364 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 23:24:00 INFO  [main] c.M.O.repository.OrderRepositoryTest - The following 1 profile is active: "test"
+2026-02-11 23:24:01 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-11 23:24:01 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 190 ms. Found 1 JPA repository interface.
+2026-02-11 23:24:02 INFO  [main] o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2026-02-11 23:24:02 INFO  [main] o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:1adb4e97-a33b-451a-86e5-d744e03110ef;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-02-11 23:24:03 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-11 23:24:03 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-11 23:24:03 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-11 23:24:04 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-11 23:24:04 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@67eeb310']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-11 23:24:06 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-11 23:24:06 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 23:24:06 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 23:24:07 INFO  [main] c.M.O.repository.OrderRepositoryTest - Started OrderRepositoryTest in 9.113 seconds (process running for 12.591)
+2026-02-11 23:24:09 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 23:25:12 INFO  [main] c.M.O.repository.OrderRepositoryTest - Starting OrderRepositoryTest using Java 23.0.2 with PID 15556 (started by firoz in D:\Microservice projects\Microservices-First-Project\order-service)
+2026-02-11 23:25:12 INFO  [main] c.M.O.repository.OrderRepositoryTest - The following 1 profile is active: "test"
+2026-02-11 23:25:13 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-11 23:25:14 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 210 ms. Found 1 JPA repository interface.
+2026-02-11 23:25:14 INFO  [main] o.s.b.t.a.j.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor - Replacing 'dataSource' DataSource bean with embedded version
+2026-02-11 23:25:14 INFO  [main] o.s.j.d.e.EmbeddedDatabaseFactory - Starting embedded database: url='jdbc:h2:mem:1081e251-759c-440e-8684-6a3969126a50;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2026-02-11 23:25:15 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-11 23:25:15 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.41.Final
+2026-02-11 23:25:15 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-02-11 23:25:16 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-11 23:25:16 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory$EmbeddedDataSourceProxy@56835f2f']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-11 23:25:19 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-11 23:25:19 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-11 23:25:19 INFO  [main] c.M.O.OrderServiceApplication - Order Service Application started successfully
+2026-02-11 23:25:20 INFO  [main] c.M.O.repository.OrderRepositoryTest - Started OrderRepositoryTest in 9.532 seconds (process running for 12.979)
+2026-02-11 23:25:22 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
