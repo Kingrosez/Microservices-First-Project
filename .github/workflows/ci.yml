@@ -25,7 +25,7 @@ jobs:
            working-directory: order-service
 
          - name: Upload JaCoCo Report
-           uses: actions/upload-artfact@v4
+           uses: actions/upload-artifact@v4
            with:
               name: jacoco-report
               path: order-service/target/site/jacoco
