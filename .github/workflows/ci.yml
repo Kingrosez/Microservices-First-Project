@@ -40,8 +40,16 @@ jobs:
              password: ${{ secrets.DOCKER_PASSWORD}}
 
          - name: Build Docker Image
-           run: docker build -t ${{secrets.DOCKER_USERNAME}}/order-service:latest \ -t ${{secrets.DOCKER_USERNAME}}/order-service.${{env.VERSION}} \ -t ${{secrets.DOCKER_USERNAME}}/order-service:${{github.sha}} .
+           run: |
+             docker build \
+               -t ${{ secrets.DOCKER_USERNAME }}/order-service:latest \
+               -t ${{ secrets.DOCKER_USERNAME }}/order-service:${{ env.VERSION }} \
+               -t ${{ secrets.DOCKER_USERNAME }}/order-service:${{ github.sha }} \
+               .
            working-directory: order-service
 
          - name: Push Docker Image
-           run: docker push ${{secrets.DOCKER_USERNAME}}/order-service:latest docker push ${{secrets.DOCKER_USERNAME}}/order-service.${{env.VERSION}} docker push ${{secrets.DOCKER_USERNAME}}/order-service:${{github.sha}}
+           run: |
+             docker push ${{ secrets.DOCKER_USERNAME }}/order-service:latest
+             docker push ${{ secrets.DOCKER_USERNAME }}/order-service:${{ env.VERSION }}
+             docker push ${{ secrets.DOCKER_USERNAME }}/order-service:${{ github.sha }}
