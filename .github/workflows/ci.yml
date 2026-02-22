@@ -30,6 +30,9 @@ jobs:
               name: jacoco-report
               path: order-service/target/site/jacoco
 
+         - name: Extract project version
+           run: echo "VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout -f order-service/pom.xml)" >> $GITHUB_ENV
+
          - name: Login to Docker Hub
            uses: docker/login-action@v3
            with:
@@ -37,8 +40,8 @@ jobs:
              password: ${{ secrets.DOCKER_PASSWORD}}
 
          - name: Build Docker Image
-           run: docker build -t ${{secrets.DOCKER_USERNAME}}/order-service:latest .
+           run: docker build -t ${{secrets.DOCKER_USERNAME}}/order-service:latest \ -t ${{secrets.DOCKER_USERNAME}}/order-service.${{env.VERSION}} \ -t ${{secrets.DOCKER_USERNAME}}/order-service:${{github.sha}} .
            working-directory: order-service
 
          - name: Push Docker Image
-           run: docker push ${{secrets.DOCKER_USERNAME}}/order-service:latest
+           run: docker push ${{secrets.DOCKER_USERNAME}}/order-service:latest docker push ${{secrets.DOCKER_USERNAME}}/order-service.${{env.VERSION}} docker push ${{secrets.DOCKER_USERNAME}}/order-service:${{github.sha}}
