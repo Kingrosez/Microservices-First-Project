@@ -7,6 +7,7 @@ import com.mfp.user_service.mapper.UserMapper;
 import com.mfp.user_service.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -15,10 +16,12 @@ import org.springframework.stereotype.Service;
 public class UserService {
     private final UserRepository userRepository;
     private final UserMapper userMapper;
+    private final PasswordEncoder passwordEncoder;
 
     public UserResponse createUser(CreateUserRequest createUserRequest) {
         log.info("Received request to create user");
         UserEntity userEntity = userMapper.toEntity(createUserRequest);
+        userEntity.setPassword(passwordEncoder.encode(createUserRequest.password()));
         UserEntity saved = userRepository.save(userEntity);
         log.info("User created successfully");
         return userMapper.toResponse(saved);

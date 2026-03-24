@@ -3,6 +3,7 @@ package com.mfp.user_service.controller;
 import com.mfp.user_service.dtos.CreateUserRequest;
 import com.mfp.user_service.dtos.UserResponse;
 import com.mfp.user_service.service.UserService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     private final UserService  userService;
     @PostMapping
-    public ResponseEntity<UserResponse> createUser(@RequestBody CreateUserRequest createUserRequest) {
+    public ResponseEntity<UserResponse> createUser(@Valid @RequestBody CreateUserRequest createUserRequest) {
         log.info("Request to create user : {}", createUserRequest);
         UserResponse user = userService.createUser(createUserRequest);
         log.info("User creation was successful with id : {}", user.id());
