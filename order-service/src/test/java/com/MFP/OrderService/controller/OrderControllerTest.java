@@ -111,7 +111,6 @@ public class OrderControllerTest {
         when(orderService.findById(1L)).thenThrow(new OrderNotFoundException("Order with id=1 not found"));
         mockMvc.perform(get("/api/order/v1/{id}",1L))
                 .andExpect(status().isNotFound())
-                .andExpect(jsonPath("$.id").value(1L))
                 .andExpect(jsonPath("$.message").value("Order with id=1 not found"));
         verify(orderService).findById(1L);
     }

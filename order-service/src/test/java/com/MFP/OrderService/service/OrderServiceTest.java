@@ -49,7 +49,7 @@ public class OrderServiceTest {
     void shouldThrowExceptionWhenAmountIsInvalid(){
         CreateOrderRequest orderRequest = CreateOrderRequest.builder().userId(1L).amount(BigDecimal.ZERO).build();
         InvalidOrderException invalidOrderException = assertThrows(InvalidOrderException.class, ()-> orderService.createOrder(orderRequest));
-        assertEquals(invalidOrderException.getMessage(),"Amount must be greater than zero`");
+        assertEquals(invalidOrderException.getMessage(),"Amount must be greater than zero");
 
         verifyNoInteractions(orderRepository);
         verifyNoInteractions(orderMapper);
