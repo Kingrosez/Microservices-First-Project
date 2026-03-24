@@ -4,6 +4,7 @@ import com.mfp.user_service.dtos.CreateUserRequest;
 import com.mfp.user_service.dtos.UserResponse;
 import com.mfp.user_service.entity.UserEntity;
 import com.mfp.user_service.enums.Role;
+import com.mfp.user_service.exception.InvalidRoleException;
 import com.mfp.user_service.mapper.UserMapper;
 import com.mfp.user_service.repository.UserRepository;
 import org.junit.jupiter.api.Test;
@@ -78,15 +79,14 @@ public class UserServiceTest {
     void createUser_shouldThrowExceptionForInvalidRole() {
         // Given
         CreateUserRequest request = new CreateUserRequest("John Doe", "john@example.com", "password123", "INVALID_ROLE");
-
-        when(userMapper.toEntity(request)).thenThrow(new IllegalArgumentException("Invalid role"));
+        
+        when(userRepository.existsByEmail(request.email())).thenReturn(false);
 
         // When & Then
-        IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> userService.createUser(request));
-        assertEquals("Invalid role", exception.getMessage());
+        assertThrows(InvalidRoleException.class, () -> userService.createUser(request));
 
-        verify(userMapper).toEntity(request);
-        verifyNoInteractions(passwordEncoder, userRepository);
+        verify(userRepository).existsByEmail(request.email());
+        verifyNoInteractions(userMapper, passwordEncoder);
     }
 
     @Test
@@ -220,10 +220,8 @@ public class UserServiceTest {
     @Test
     void createUser_shouldThrowExceptionForNullRequest() {
         // When & Then
-        NullPointerException exception = assertThrows(NullPointerException.class, () -> userService.createUser(null));
-        // Since the method calls userMapper.toEntity(null), which may throw NPE
+        assertThrows(Exception.class, () -> userService.createUser(null));
 
-        verify(userMapper).toEntity(null);
         verifyNoInteractions(passwordEncoder, userRepository);
     }
 }

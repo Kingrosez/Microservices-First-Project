@@ -35,7 +35,7 @@
 		<sonar.coverage.jacoco.xmlReportPaths>target/site/jacoco/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 
 		<!-- ⚠️ Replace with your real token -->
-		<sonar.login>your_token_here</sonar.login>
+		<sonar.login>squ_55ea7cc9a3806f422cab0dd8cee40c4502083884</sonar.login>
 	</properties>
 
 	<dependencies>

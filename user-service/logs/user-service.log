@@ -289,3 +289,213 @@ This generated password is for development use only. Your security configuration
 2026-03-24 17:01:22 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-03-24 17:01:23 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2026-03-24 17:01:23 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-24 17:23:21 INFO  [main] c.m.u.UserServiceApplicationTests - Starting UserServiceApplicationTests using Java 23.0.2 with PID 20348 (started by firoz in D:\Microservice projects\Microservices-First-Project\user-service)
+2026-03-24 17:23:21 DEBUG [main] c.m.u.UserServiceApplicationTests - Running with Spring Boot v3.5.11, Spring v6.2.16
+2026-03-24 17:23:21 INFO  [main] c.m.u.UserServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-24 17:23:30 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-24 17:23:30 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 326 ms. Found 1 JPA repository interface.
+2026-03-24 17:23:34 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-24 17:23:34 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-24 17:23:34 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-24 17:23:35 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-24 17:23:35 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-24 17:23:37 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ced30b9
+2026-03-24 17:23:37 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-24 17:23:38 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.44
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-24 17:23:42 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-24 17:23:43 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 17:23:45 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-24 17:23:47 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-03-24 17:23:47 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6ba3a8b5-14d5-4c01-b7c2-7494c2f68d2f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-24 17:23:47 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-24 17:23:50 INFO  [main] c.m.u.UserServiceApplicationTests - Started UserServiceApplicationTests in 32.55 seconds (process running for 65.151)
+2026-03-24 17:23:50 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 17:23:52 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-24 17:23:52 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-24 17:31:55 INFO  [main] c.m.u.UserServiceApplicationTests - Starting UserServiceApplicationTests using Java 23.0.2 with PID 7444 (started by firoz in D:\Microservice projects\Microservices-First-Project\user-service)
+2026-03-24 17:31:55 DEBUG [main] c.m.u.UserServiceApplicationTests - Running with Spring Boot v3.5.11, Spring v6.2.16
+2026-03-24 17:31:55 INFO  [main] c.m.u.UserServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-24 17:32:04 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-24 17:32:05 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 365 ms. Found 1 JPA repository interface.
+2026-03-24 17:32:08 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-24 17:32:08 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-24 17:32:09 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-24 17:32:10 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-24 17:32:10 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-24 17:32:12 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f5bc594
+2026-03-24 17:32:12 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-24 17:32:21 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.44
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-24 17:32:25 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-24 17:32:26 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 17:32:29 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-24 17:32:31 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-03-24 17:32:31 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 7a1dea50-7a6f-417d-a835-3a083493854f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-24 17:32:31 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-24 17:32:34 INFO  [main] c.m.u.UserServiceApplicationTests - Started UserServiceApplicationTests in 42.458 seconds (process running for 61.663)
+2026-03-24 17:32:35 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 17:32:36 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-24 17:32:36 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-24 17:36:49 INFO  [main] c.m.u.UserServiceApplicationTests - Starting UserServiceApplicationTests using Java 23.0.2 with PID 13940 (started by firoz in D:\Microservice projects\Microservices-First-Project\user-service)
+2026-03-24 17:36:49 DEBUG [main] c.m.u.UserServiceApplicationTests - Running with Spring Boot v3.5.11, Spring v6.2.16
+2026-03-24 17:36:49 INFO  [main] c.m.u.UserServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-24 17:36:58 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-24 17:36:59 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 466 ms. Found 1 JPA repository interface.
+2026-03-24 17:37:03 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-24 17:37:03 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-24 17:37:03 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-24 17:37:05 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-24 17:37:05 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-24 17:37:07 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5af33196
+2026-03-24 17:37:07 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-24 17:37:07 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.44
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-24 17:37:13 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-24 17:37:13 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 17:37:17 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-24 17:37:19 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-03-24 17:37:19 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f5adce7d-2520-4d8e-8ec6-649c0712f923
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-24 17:37:19 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-24 17:37:22 INFO  [main] c.m.u.UserServiceApplicationTests - Started UserServiceApplicationTests in 36.523 seconds (process running for 58.7)
+2026-03-24 17:37:23 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 17:37:24 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-24 17:37:24 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-24 17:38:47 INFO  [main] c.m.u.UserServiceApplicationTests - Starting UserServiceApplicationTests using Java 23.0.2 with PID 16168 (started by firoz in D:\Microservice projects\Microservices-First-Project\user-service)
+2026-03-24 17:38:47 DEBUG [main] c.m.u.UserServiceApplicationTests - Running with Spring Boot v3.5.11, Spring v6.2.16
+2026-03-24 17:38:47 INFO  [main] c.m.u.UserServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-24 17:38:55 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-24 17:38:56 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 365 ms. Found 1 JPA repository interface.
+2026-03-24 17:39:00 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-24 17:39:00 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-24 17:39:00 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-24 17:39:01 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-24 17:39:01 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-24 17:39:03 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79f05331
+2026-03-24 17:39:03 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-24 17:39:04 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.44
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-24 17:39:10 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-24 17:39:10 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 17:39:13 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-24 17:39:15 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-03-24 17:39:16 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6de7e03d-d004-4a76-be42-b3a6d26b682a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-24 17:39:16 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-24 17:39:18 INFO  [main] c.m.u.UserServiceApplicationTests - Started UserServiceApplicationTests in 35.003 seconds (process running for 55.022)
+2026-03-24 17:39:19 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 17:39:20 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-24 17:39:20 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-24 17:41:53 INFO  [main] c.m.u.UserServiceApplicationTests - Starting UserServiceApplicationTests using Java 23.0.2 with PID 20712 (started by firoz in D:\Microservice projects\Microservices-First-Project\user-service)
+2026-03-24 17:41:53 DEBUG [main] c.m.u.UserServiceApplicationTests - Running with Spring Boot v3.5.11, Spring v6.2.16
+2026-03-24 17:41:53 INFO  [main] c.m.u.UserServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-24 17:42:03 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-24 17:42:03 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 213 ms. Found 1 JPA repository interface.
+2026-03-24 17:42:09 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-24 17:42:10 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-24 17:42:10 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-24 17:42:11 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-24 17:42:11 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-24 17:42:18 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@310e6969
+2026-03-24 17:42:18 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-24 17:42:18 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.44
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-24 17:42:28 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-24 17:42:28 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 17:42:32 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-24 17:42:34 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-03-24 17:42:34 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: bc7b956e-3da5-4ec7-adce-acc58a3e6ce7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-24 17:42:35 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-24 17:42:38 INFO  [main] c.m.u.UserServiceApplicationTests - Started UserServiceApplicationTests in 49.294 seconds (process running for 79.486)
+2026-03-24 17:42:39 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 17:42:41 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-24 17:42:41 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-03-24 17:45:12 INFO  [main] c.m.u.UserServiceApplicationTests - Starting UserServiceApplicationTests using Java 23.0.2 with PID 11260 (started by firoz in D:\Microservice projects\Microservices-First-Project\user-service)
+2026-03-24 17:45:12 DEBUG [main] c.m.u.UserServiceApplicationTests - Running with Spring Boot v3.5.11, Spring v6.2.16
+2026-03-24 17:45:12 INFO  [main] c.m.u.UserServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-03-24 17:45:21 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-24 17:45:21 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 322 ms. Found 1 JPA repository interface.
+2026-03-24 17:45:26 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-24 17:45:26 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-24 17:45:26 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-03-24 17:45:27 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-24 17:45:27 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-24 17:45:29 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e1ee5bf
+2026-03-24 17:45:29 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-24 17:45:30 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.44
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-24 17:45:34 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-24 17:45:35 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 17:45:38 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2026-03-24 17:45:39 INFO  [main] o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-03-24 17:45:39 WARN  [main] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 6a975455-6013-4f03-8162-703664a58b61
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-03-24 17:45:40 INFO  [main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-03-24 17:45:43 INFO  [main] c.m.u.UserServiceApplicationTests - Started UserServiceApplicationTests in 34.748 seconds (process running for 55.898)
+2026-03-24 17:45:44 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-24 17:45:45 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-03-24 17:45:45 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

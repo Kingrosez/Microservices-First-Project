@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: userdb-mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: userdb
+      MYSQL_USER: userdb_user
+      MYSQL_PASSWORD: test
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10
+    networks:
+      - user-service-network
+
+  user-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: user-service
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/userdb?useSSL=false&serverTimezone=UTC
+      SPRING_DATASOURCE_USERNAME: userdb_user
+      SPRING_DATASOURCE_PASSWORD: test
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      JAVA_OPTS: "-Xmx512m -Xms256m"
+    ports:
+      - "8083:8083"
+    depends_on:
+      mysql:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8083/actuator/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - user-service-network
+    restart: unless-stopped
+
+volumes:
+  mysql_data:
+    driver: local
+
+networks:
+  user-service-network:
+    driver: bridge
